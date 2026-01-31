@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Ноутбук Lenovo IdeaPad",
+    "price": 4590,
+    "index": 1
+  },
+  {
+    "title": "Смартфон Samsung Galaxy S23",
+    "price": 7490,
+    "index": 2
+  },
+  {
+    "title": "Наушники Apple AirPods Pro",
+    "price": 1990,
+    "index": 3
+  },
+  {
+    "title": "Умные часы Xiaomi Mi Band 8",
+    "price": 449,
+    "index": 4
+  },
+  {
+    "title": "Планшет iPad Air",
+    "price": 6290,
+    "index": 5
+  },
+  {
+    "title": "Фотоаппарат Canon EOS R50",
+    "price": 5590,
+    "index": 6
+  },
+  {
+    "title": "Игровая консоль PlayStation 5",
+    "price": 6890,
+    "index": 7
+  },
+  {
+    "title": "Электронная книга PocketBook",
+    "price": 1290,
+    "index": 8
+  },
+  {
+    "title": "Монитор Dell 27 дюймов",
+    "price": 3290,
+    "index": 9
+  },
+  {
+    "title": "Внешний жесткий диск Seagate 2TB",
+    "price": 649,
+    "index": 10
+  }
+]
