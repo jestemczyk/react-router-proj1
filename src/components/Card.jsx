@@ -21,11 +21,7 @@ export const Card = ({ id, title, price }) => {
         }}
       >
         <span style={{ fontSize: "16px", fontWeight: "bold" }}>${price}</span>
-        <Link
-          to={
-            localStorage.getItem("userData") ? `/cards/${id}` : "/registration"
-          }
-        >
+        <Link to={`/cards/${id}`}>
           <button
             style={{
               padding: "6px 12px",

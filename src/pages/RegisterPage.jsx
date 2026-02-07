@@ -11,9 +11,11 @@ export const RegisterPage = () => {
       username: usernameRef.current.value,
       email: passwordRef.current.value,
     };
+    const token = true;
 
     console.log(userData);
     localStorage.setItem("userData", JSON.stringify(userData));
+    localStorage.setItem("token", JSON.stringify(token));
     navigate("/");
   }
   return (

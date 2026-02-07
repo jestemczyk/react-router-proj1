@@ -5,6 +5,7 @@ import { useState } from "react";
 import cards from "./cards.json";
 import { CardPage } from "./pages/CardPage";
 import { createBrowserHistory } from "history";
+import { PrivateRoute } from "./pages/PrivateRoute";
 
 function App() {
   return (
@@ -12,8 +13,10 @@ function App() {
       <Routes>
         <Route path="/"></Route>
         <Route index element={<MainPage />} />
-        <Route path="cards/:id" element={<CardPage cards={cards} />} />
         <Route path="registration" element={<RegisterPage />} />
+        <Route element={<PrivateRoute />}>
+          <Route path="cards/:id" element={<CardPage cards={cards} />} />
+        </Route>
         <Route
           path="*"
           element={
